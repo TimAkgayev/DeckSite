@@ -1,0 +1,5 @@
+env_decksite
+db.sqlite3
+decksite/__pycache__
+decksite/migrations
+main_decksite/__pycache__
