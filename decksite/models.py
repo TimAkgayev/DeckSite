@@ -1,4 +1,5 @@
 from django.db import models
+from .storage import OverwriteStorage
 
 # Create your models here.
 
@@ -10,7 +11,7 @@ class Project(models.Model):
     projectID = models.AutoField(primary_key = True)
     date_added = models.DateTimeField(auto_now_add=True)
 
-    projectThumb = models.FileField(blank=True, null=True)
+    projectThumb = models.FileField(blank=True, null=True, storage=OverwriteStorage())
 
     def __str__(self):
         return self.projectName
