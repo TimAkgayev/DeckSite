@@ -32,7 +32,7 @@
 	
 	<main>
 
-		<div id="RecentProjects">
+		<section id="RecentProjects">
 			{%for project in projects %}
 				<div class = "IndividualProject">
 					{%load static%}
@@ -48,7 +48,24 @@
 					<div> No projects to display. </div>
 			
 			{%endfor%}
-		</div>
+		</section>
+
+		<section id="OurProcess">
+
+			<div id="OurProcessHeader">
+				Our Process 
+			</div>
+			{%load static%}
+			<img id="OurProcessImage" src="{%static 'decksite/images/OurProcess.jpg'%}">
+			<div id="OurProcessText">
+				<p>Our decks are made of the finest materials and utilizing newest processes available in the industry.</p><p> We start our process with an estimate and a quick overview of your project. From there we go through the design process with you step by step to make sure you're satisfied with the look before the work begins.</p><p> Once you are satisfied with the drawings, the work will begin. You're welcome to step in at any moment to intervene in the process. </p>
+			</div>
+			<div id="OurProcessButton">
+				Read More
+				</div>
+			
+			
+		</section>
 
 	</main>
 	
