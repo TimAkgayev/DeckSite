@@ -65,12 +65,14 @@ body {
 	text-align: center;
 }
 
-#OurProcess {
+#GetStartedSection {
 	width: 90%;
 	margin: auto;
 }
 
-#OurProcessHeader{
+
+
+#RecentProjectsHeader{
 
 	font-size: 2em;
 	font-style: italic;
@@ -87,10 +89,76 @@ body {
 	width: 100%;
 }
 
-#OurProcessButton {
-	border: 1em solid gray;
+#GetStarted{
+	width: 50%;
+	margin: auto;
 	text-align: center;
 }
+
+.GetStartedStep{
+	display: flex;	
+	justify-content:center;
+	align-items: center;
+}
+
+.StepBox{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 3em;
+
+	border: 1px solid #888282;
+    position: relative;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em #D8D0D1;
+    -webkit-box-shadow: 0.1em 0.1em #D8D0D1;
+    font-family: handlee;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+
+}
+
+.StepNumber {
+	border: 1px solid #888282;
+    position: relative;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em #D8D0D1;
+    -webkit-box-shadow: 0.1em 0.1em #D8D0D1;
+    font-family: handlee;
+    font-style: normal;
+    font-weight: 400;
+    font-size: x-large;
+}
+
+.StepDescription{
+	font-size: x-large;
+}
+
+
+
+
+.step-image{
+	max-width: 100%;
+	min-width:  10%;
+	
+}
+
+.StepDivider{
+	min-height: 2em;
+}
+
+.book_animation {
+	width: 100%;
+}
+
+.tape_animation { 
+	width: 100%;
+}
+
+
 
 
 @font-face {
